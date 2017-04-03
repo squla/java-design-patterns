@@ -17,7 +17,9 @@
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
---><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.iluwatar</groupId>
     <artifactId>java-design-patterns</artifactId>
@@ -58,6 +60,7 @@
         <module>bridge</module>
         <module>composite</module>
         <module>dao</module>
+        <module>dto</module>
         <module>data-mapper</module>
         <module>decorator</module>
         <module>facade</module>
@@ -121,7 +124,7 @@
         <module>factory-kit</module>
         <module>feature-toggle</module>
         <module>value-object</module>
-		    <module>module</module>
+        <module>module</module>
         <module>monad</module>
         <module>mute-idiom</module>
         <module>mutex</module>
@@ -299,23 +302,23 @@
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
-                                	<pluginExecutionFilter>
-                                		<groupId>
-                                			com.github.markusmo3.urm
-                                		</groupId>
-                                		<artifactId>
-                                			urm-maven-plugin
-                                		</artifactId>
-                                		<versionRange>
-                                			[1.4.1,)
-                                		</versionRange>
-                                		<goals>
-                                			<goal>map</goal>
-                                		</goals>
-                                	</pluginExecutionFilter>
-                                	<action>
-                                		<ignore/>
-                                	</action>
+                                    <pluginExecutionFilter>
+                                        <groupId>
+                                            com.github.markusmo3.urm
+                                        </groupId>
+                                        <artifactId>
+                                            urm-maven-plugin
+                                        </artifactId>
+                                        <versionRange>
+                                            [1.4.1,)
+                                        </versionRange>
+                                        <goals>
+                                            <goal>map</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <ignore/>
+                                    </action>
                                 </pluginExecution>
                             </pluginExecutions>
                         </lifecycleMappingMetadata>
