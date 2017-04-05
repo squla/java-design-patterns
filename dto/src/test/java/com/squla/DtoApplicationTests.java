@@ -1,5 +1,4 @@
 package com.squla;
-
 //import org.springframework.boot.test.context.SpringBootTest;
 //import org.springframework.test.context.junit4.SpringRunner;
 //
@@ -7,8 +6,8 @@ package com.squla;
 //@SpringBootTest
 //public class DtoApplicationTests {
 //
-//	@Test
-//	public void contextLoads() {
-//	}
+//  @Test
+//  public void contextLoads() {
+//  }
 //
 //}

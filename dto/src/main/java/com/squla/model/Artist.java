@@ -10,26 +10,26 @@ import javax.persistence.Id;
  */
 @Entity
 public class Artist {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long artistId;
-    private String name;
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  private Long artistId;
+  private String name;
 
-    public Long getArtistId() {
-        return artistId;
-    }
+  public Long getArtistId() {
+    return artistId;
+  }
 
-    public Artist setArtistId(Long artistId) {
-        this.artistId = artistId;
-        return this;
-    }
+  public Artist setArtistId(Long artistId) {
+    this.artistId = artistId;
+    return this;
+  }
 
-    public String getName() {
-        return name;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public Artist setName(String name) {
-        this.name = name;
-        return this;
-    }
+  public Artist setName(String name) {
+    this.name = name;
+    return this;
+  }
 }
